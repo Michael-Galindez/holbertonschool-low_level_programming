@@ -1,2 +1,1 @@
-# holbertonschool low level programming
-C Programming
+# holbertonschool low level programming (C programming)

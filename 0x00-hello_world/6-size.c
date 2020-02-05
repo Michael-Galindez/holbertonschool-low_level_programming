@@ -1,4 +1,4 @@
-B#include<stdio.h>
+#include<stdio.h>
 int main() {
 char charType;
 int intType;
