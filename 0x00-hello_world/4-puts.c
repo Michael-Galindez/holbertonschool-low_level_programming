@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - Entry Point
- * Puts - prints text in screen
+ * puts - prints text in screen
  * Return: Always 0 (Success)
  */
 int main(void){
