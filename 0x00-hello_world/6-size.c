@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 /**
  * main - Entry point
  * all varable types and its sizes in bytes
