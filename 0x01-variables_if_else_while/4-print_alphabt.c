@@ -13,8 +13,11 @@ int main(void)
 	putchar(abc);
 	abc++;
 
-if (abc == 'e' || abc == 'q')
+	if (abc == 'q' || abc == 'e')
+{
 	abc++;
+}
+	putchar('\n');
 }
 return (0);
 }
