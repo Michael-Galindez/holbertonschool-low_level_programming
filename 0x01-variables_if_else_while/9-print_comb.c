@@ -8,10 +8,10 @@ int main(void)
 {
 	int r6 = '0';
 
-	while (r6 < 10)
+	while (r6 <= '9')
 {
-	putchar(r6 + '0');
-	if (r6 < '9')
+	putchar(r6);
+	if (r6 != '9')
 {
 	putchar(',');
 	putchar(' ');
