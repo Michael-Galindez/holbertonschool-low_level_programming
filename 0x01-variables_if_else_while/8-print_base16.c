@@ -8,11 +8,13 @@ int main(void)
 {
 	int r6 = '0';
 
-	for (r6 = '0'; r6 < 10; r6++)
+	while (r6 <= '9')
 	{
-		putchar(r6 + '0');
+		putchar(r6);
+		r6++;
 	}
-for (r6 = 'a'; r6 <= 'f'; r6++)
+	r6 = 'a';
+	while (r6 <= 'f')
 {
 	putchar(r6);
 	r6++;
