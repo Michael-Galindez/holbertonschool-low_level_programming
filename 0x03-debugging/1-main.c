@@ -7,18 +7,18 @@
 
 int main(void)
 {
-  int i;
-  /* printf - print */
-  printf("Infinite loop incoming :(\n");
+	int i;
+	/* printf - print */
+	printf("Infinite loop incoming :(\n");
 
-  i = 0;
-  /*
-   * while (i < 10)
-   * {
-   *putchar(i);
-   * }
-   */
-  /* printf - finished  */
-  printf("Infinite loop avoided! \\o/\n");
-  return (0);
+	i = 0;
+	/*
+	 * while (i < 10)
+	 * {
+	 *putchar(i);
+	 * }
+	 */
+	/* printf - Show finished */
+	printf("Infinite loop avoided! \\o/\n");
+	return (0);
 }
