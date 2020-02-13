@@ -1,19 +1,16 @@
 #include "holberton.h"
 /**
- * main - print numbers to 9 excluding 2 and 4.
- * Return: Always 0.
+ * print_most_numbers - prints the numbers
+ * Return: void
  */
 void print_most_numbers(void)
 {
-	int a;
+char c;
 
-	a = 0;
-	while (a < 10)
-	{
-			if (a != 2 && a != 4)
-				_putchar(a + 0);
-
-			a++;
-	}
-	_putchar('\n');
+for (c = '0'; c <= '9'; c++)
+{
+if (!(c == '2' || c == '4'))
+	_putchar(c);
+}
+_putchar('\n');
 }
