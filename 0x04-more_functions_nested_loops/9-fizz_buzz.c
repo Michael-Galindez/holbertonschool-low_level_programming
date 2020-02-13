@@ -16,8 +16,9 @@ int main(void)
 			printf("Buzz");
 		if (a % 3 && a % 5)
 			printf("%d", a);
-		putchar('\n');
+		if (a < 100)
+			putchar(' ');
 	}
-
+	putchar('\n');
 	return (0);
 }
