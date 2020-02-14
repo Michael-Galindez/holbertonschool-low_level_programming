@@ -17,8 +17,17 @@ for (cont = size ; cont >= 1; cont--)
 {
 if (i < cont)
 {
-    _putchar(' ');    }
+    _putchar(' ');
+}
 else
-{    _putchar('#');    }    }    _putchar('\n');    }   }
-else   {    _putchar('\n');   }
+{
+ _putchar('#');
+}
+}    _putchar('\n');
+}
+}
+else
+{
+ _putchar('\n');
+}
 }
