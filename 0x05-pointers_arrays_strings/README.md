@@ -1,1 +1,1 @@
-# C programming Pointers and Arrays
+# Pointers and Arrays

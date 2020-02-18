@@ -1,15 +1,16 @@
 #include "holberton.h"
 /**
- * main - check the code for Holberton School students.
- *
- * Return: Always 0.
+ * _puts - prints a string.
+ * @str: pointer to char.
+ * Return: Always void.
  */
 void _puts(char *str)
 {
+	int a;
 
+	while (*(str + a))
+		_putchar(*(str + a));
+	a++;
 
-	while (*(a + s))
-		_putchar(
-
-
+	putchar('\n')
 }
