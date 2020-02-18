@@ -1,16 +1,17 @@
 #include "holberton.h"
 /**
- * puts2 - prints othe r chars.
- * @str: the string to print.
+ * puts2 - prints the thing
+ * @str: type char var
  */
+
 void puts2(char *str)
 {
-  int d = 0;
+	int a;
 
-  while (*(str + d))
-    {
-    _putchar(*(str + d));
-  d = d + 2;
-  }
-  _putchar('\n');
+	for (a = 0; str[a] != '\0'; a++)
+	{
+	if (a % 2 == 0)
+	_putchar(str[a]);
+	}
+	_putchar('\n');
 }
