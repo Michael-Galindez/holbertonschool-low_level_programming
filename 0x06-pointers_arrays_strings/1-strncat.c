@@ -8,19 +8,19 @@
  */
 char *_strncat(char *dest, char *src, int n)
 {
-	char *p = dest;
-	int d = 0;
+char *p = dest;
+int d = 0;
 
-	while (*dest++)
-		;
-	dest--;
-	while (*src && d < n)
-	{
-		*dest = *src;
-		dest++;
-		src++;
-		d++;
-	}
-	*dest = '\0';
-	return (p);
+while (*dest++)
+;
+dest--;
+while (*src && d < n)
+{
+*dest = *src;
+dest++;
+src++;
+d++;
+}
+*dest = '\0';
+return (p);
 }
