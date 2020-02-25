@@ -1,8 +1,10 @@
 #include "holberton.h"
 /**
  * _memset - Sets memory.
- * @s: char type 
- * Return: s value.
+ * @s: char type
+ * @b: char type var
+ * @n: unsigned int
+ * Return: returns s value.
  */
 char *_memset(char *s, char b, unsigned int n)
 {
@@ -12,6 +14,6 @@ char *_memset(char *s, char b, unsigned int n)
     {
       *(s + i) = b;
       i++;
-    }
+}
   return (s);
 }
