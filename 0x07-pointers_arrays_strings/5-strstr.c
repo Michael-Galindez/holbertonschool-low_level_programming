@@ -2,10 +2,9 @@
 /**
  * _strstr - locates a substring
  * @haystack: string to search
- * @needle: string to search 
+ * @needle: string to search
  * Return: pointer to location haystack or NULL
  */
-
 char *_strstr(char *haystack, char *needle)
 {
 	int i,

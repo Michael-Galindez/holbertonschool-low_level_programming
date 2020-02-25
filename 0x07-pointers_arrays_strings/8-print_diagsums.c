@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * print_diagsums - prints the sum two diagonals 
+ * print_diagsums - prints the sum two diagonals
  * @a: pointer 2D array.
  * @size: diagonal to add.
  */
