@@ -19,7 +19,7 @@ return (checksqtr(a, b + 1));
 }
 
 /**
- * _sqet_recursion - check the code for Holberton School students.
+ * _sqrt_recursion - check the code for Holberton School students.
  * @n: int number
  * Return: Always 0.
  */
