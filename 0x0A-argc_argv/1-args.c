@@ -1,5 +1,11 @@
 #include <stdio.h>
-int main(int argc, __attribute__((unused)) char *argv[])
+/**
+ * main - prints the name number of arguments passed
+ * @argc: number of argument to the function
+ * @argv: argument pointers to strings
+ * Return: always 0
+ */
+int main(int argc, char *argv[] __attribute__((unused)))
 {
 printf("%d\n", argc - 1);
 return (0);
