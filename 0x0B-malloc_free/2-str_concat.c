@@ -2,8 +2,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - check the code for Holberton School students.
- *
+ * str_concat - concatenates 2 strings.
+ * @s1: string 1
+ * @s2: string 2
  * Return: Always 0.
  */
 char *str_concat(char *s1, char *s2);
@@ -25,7 +26,7 @@ for (j = 0; s2[j]; j++)
 ;
 }
 k = i + j + 1;
-s = malloc(k * sizeof(char));
+s = malloc(k *sizeof(char));
 if (s == NULL)
 return (NULL);
 for (l = 0; l < i; l++)

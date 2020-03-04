@@ -16,13 +16,13 @@ return (NULL);
 for (i = 0; str[i]; i++)
 ;
 i++;
-a = malloc(i * sizeof(char));
+a = malloc(i *sizeof(char));
 if (a == NULL)
 {
 return (NULL);
 }
- j = 0;
- while (j < i)
+j = 0;
+while (j < i)
 {
 a[j] = str[j];
 j++;
