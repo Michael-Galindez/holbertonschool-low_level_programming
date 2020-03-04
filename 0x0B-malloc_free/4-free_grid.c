@@ -12,9 +12,7 @@ int i;
 
 if (grid == NULL || height <= 0)
 return;
-i = 0;
-while (i < height)
+for (i = 0; i < height; i++)
 free(grid[i]);
 free(grid);
-i++;
 }
