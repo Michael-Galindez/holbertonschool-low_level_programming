@@ -1,5 +1,5 @@
-#include <stdlib.h>
 #include "holberton.h"
+#include <stdlib.h>
 /**
  * alloc_grid - creates a 2d array
  * @width: the withd of the array
