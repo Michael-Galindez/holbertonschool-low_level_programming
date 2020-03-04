@@ -20,7 +20,7 @@ n++;
 n++;
 }
 n++;
-s = malloc(n * sizeof(char));
+s = malloc(n *sizeof(char));
 if (s == NULL)
 return (NULL);
 for (i = 0; i < ac; i++)
