@@ -3,8 +3,8 @@
 #include <stdlib.h>
 #include <string.h>
 /**
- * *_realloc - reallocate memory 
- * @ptr: pointer to address 
+ * *_realloc - reallocate memory
+ * @ptr: pointer to address
  * @old_size: unsigned old memory size
  * @new_size: unsigned new memory size
  * Return:  return pointer
