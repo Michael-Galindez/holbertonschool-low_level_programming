@@ -9,10 +9,11 @@ int int_index(int *array, int size, int (*cmp)(int))
 		while (i < size)
 			j = cmp(array[i]);
 	if (j)
-		break;
+	break;
 
 	if (i < size)
 		return (i);
+		i++;
 	}
 	return (-1);
 }
