@@ -2,7 +2,7 @@
 /**
 * print_name - Prints a name
 * @name : parameter func
-* @f : pointer to func
+* @f : pointer func
 */
 void print_name(char *name, void (*f)(char *))
 {
