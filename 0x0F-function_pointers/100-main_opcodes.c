@@ -1,5 +1,11 @@
 #include <stdlib.h>
 #include <stdio.h>
+/**
+ * main - main function...
+ * @a: address of the main function
+ * @n: number of bites
+ */
+
 void print_opcodes(char *a, int n)
 {
 	int i;
@@ -13,7 +19,11 @@ void print_opcodes(char *a, int n)
 	printf("\n");
 
 }
-
+/**
+ * main - main function op codes
+ * @argc: number of arguments
+ * @argv: arrr of pinters to arguments
+ */
 int main(int argc, char **argv)
 {
 	int n;
@@ -30,4 +40,5 @@ int main(int argc, char **argv)
 		exit(2);
 	}
 	print_opcodes((char *)&main, n);
+	return(0);
 }
