@@ -12,8 +12,9 @@ int sum = 0;
 unsigned int i;
 va_list valist;
 if (n == 0)
-	return;
-
+{
+	return (0);
+}
 va_start(valist, n);
 i = 0;
 while (i < n)
