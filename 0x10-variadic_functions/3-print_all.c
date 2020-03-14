@@ -1,6 +1,4 @@
 #include "variadic_functions.h"
-#include <stdio.h>
-#include <stdarg.h>
 void print_c (va_list c)
 {
 	printf("%c", va_arg(c, int));
