@@ -23,8 +23,8 @@ void print_string(va_list string)
 	printf("%s", str);
 }
 /**
- * main - check the code for Holberton School students.
- *
+ * print_i - prints integer.
+ * @i: the int
  * Return: Always 0.
  */
 void print_i(va_list i)
@@ -32,8 +32,8 @@ void print_i(va_list i)
 	printf("%d", va_arg(i, int));
 }
 /**
- * main - check the code for Holberton School students.
- *
+ * print_f - prints the float.
+ * @f: the float
  * Return: Always 0.
  */
 void print_f(va_list f)
@@ -41,8 +41,8 @@ void print_f(va_list f)
 	printf("%f", va_arg(f, double));
 }
 /**
- * main - check the code for Holberton School students.
- *
+ * print_all - prints all? var types.
+ * @format: format
  * Return: Always 0.
  */
 void print_all(const char * const format, ...)
@@ -53,7 +53,7 @@ void print_all(const char * const format, ...)
 		{"c", print_c},
 		{"s", print_string},
 		{"i", print_i},
-		{"f", print_ f},
+		{"f", print_f},
 		{NULL, NULL}
 	};
 	va_list valist;
@@ -66,7 +66,7 @@ void print_all(const char * const format, ...)
 		j = 0;
 	while (p[j].t)
 	{
-		if (p[j].t == format[i])
+		if (*(p[j].t) == format[i])
 		{
 			printf("%s", separator);
 			p[j].f(valist);
