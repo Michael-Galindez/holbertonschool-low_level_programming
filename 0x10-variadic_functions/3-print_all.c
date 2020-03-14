@@ -1,10 +1,19 @@
 #include "variadic_functions.h"
-void print_c (va_list c)
+/**
+ * print_c - prints a char
+ * @c: the char
+ * Return: always 0
+ */
+void print_c(va_list c)
 {
 	printf("%c", va_arg(c, int));
 }
-
-void print_string (va_list string)
+/**
+ * print_string - prints a string
+ * @string: the string
+ * Return: Always 0.
+ */
+void print_string(va_list string)
 {
 	char *str;
 
@@ -13,16 +22,29 @@ void print_string (va_list string)
 			str = "(nil)";
 	printf("%s", str);
 }
-
-void print_i (va_list i)
+/**
+ * main - check the code for Holberton School students.
+ *
+ * Return: Always 0.
+ */
+void print_i(va_list i)
 {
 	printf("%d", va_arg(i, int));
 }
-
-void print_f (va_list f)
+/**
+ * main - check the code for Holberton School students.
+ *
+ * Return: Always 0.
+ */
+void print_f(va_list f)
 {
 	printf("%f", va_arg(f, double));
 }
+/**
+ * main - check the code for Holberton School students.
+ *
+ * Return: Always 0.
+ */
 void print_all(const char * const format, ...)
 {
 
