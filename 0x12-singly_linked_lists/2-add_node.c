@@ -1,4 +1,19 @@
 #include "lists.h"
+#include <stdlib.h>
+#include <string.h>
+/**
+ * _strlen - finds the length of a string
+ * @str: to find the length of a string
+ * Description: use strlen to find the NULL and add the node
+ */
+unsigned int _strlen(char *str)
+{
+  unsigned int i;
+
+  for (i = 0; str[i]; i++)
+    ;
+  return (i);
+}
 /**
  * add_node - adds a node to the linked list
  * @head: pointer to a linked list
