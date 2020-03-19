@@ -5,14 +5,15 @@
  * _strlen - finds the length of a string
  * @str: to find the length of a string
  * Description: use strlen to find the NULL and add the node
+ * Return: len of string
  */
 unsigned int _strlen(char *str)
 {
-  unsigned int i;
+unsigned int i;
 
-  for (i = 0; str[i]; i++)
-    ;
-  return (i);
+for (i = 0; str[i]; i++)
+;
+return (i);
 }
 /**
  * add_node - adds a node to the linked list
