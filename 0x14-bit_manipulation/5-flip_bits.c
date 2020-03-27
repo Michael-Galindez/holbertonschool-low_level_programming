@@ -14,7 +14,7 @@ count = 0;
 check = 1;
 differ = n ^ m;
 
-for (i = 0; i < (sizeof(unsigned long int) * 8);i++)
+for (i = 0; i < (sizeof(unsigned long int) * 8); i++)
 {
 if (check == (differ & check))
 count++;
