@@ -14,12 +14,11 @@ count = 0;
 check = 1;
 differ = n ^ m;
 
-while (i < (sizeof(unsigned long int) * 8))
+for (i = 0; i < (sizeof(unsigned long int) * 8);i++)
 {
 if (check == (differ & check))
 count++;
 check <<= 1;
 }
-i++;
 return (count);
 }
